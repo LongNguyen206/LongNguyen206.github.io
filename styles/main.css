@@ -661,7 +661,7 @@ footer .social-links a:hover {
 }
 
 .learn-more {
-    bottom: 2.5%;
+    bottom: 7%;
     display: inline-block;
     font-size: 1.3rem;
     left: 50%;
@@ -678,7 +678,8 @@ footer .social-links a:hover {
 
 @media screen and (min-width: 750px) {
     .learn-more {
-        font-size: 1.7rem
+        font-size: 1.7rem;
+        bottom: 2.5%;
     }
 }
 
