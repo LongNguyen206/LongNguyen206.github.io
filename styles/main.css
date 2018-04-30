@@ -720,6 +720,10 @@ footer .social-links a:hover {
     margin: 0 auto
 }
 
+#about p {
+    text-align: right;
+}
+
 #about #about-me-text {
     text-align: right;
 }
@@ -728,7 +732,7 @@ footer .social-links a:hover {
     #about #about-me-text {
         text-align: center;
     }
-    #about .intro {
+    #about p {
         text-align: center;
     }
 }
@@ -793,19 +797,19 @@ footer .social-links a:hover {
     font-weight: 700;
 }
 
-#stack {
+#portfolio {
     background-color: #eee
 }
 
-#stack .container {
+#portfolio .container {
     max-width: 960px
 }
 
-#stack p.statement {
+#portfolio p.statement {
     margin-bottom: 0
 }
 
-#stack .six.columns {
+#portfolio .six.columns {
     margin-left: 0
 }
 
