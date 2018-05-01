@@ -20,7 +20,7 @@ The design process included:
 * Dissecting their HTML and CSS via browser's 'Inspect' tool to see how things work
 
 For the wireframe, I simply used pen and paper as I found this method easier.
-![wireframe](https://github.com/LongNguyen206/LongNguyen206.github.io/blob/master/wireframe.jpg)
+![wireframe](https://github.com/LongNguyen206/LongNguyen206.github.io/blob/master/wireframe.jpg width=50)
 
 As the motto was to keep things simple, the website is split into 6 sections: 
 * Hero section
