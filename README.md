@@ -20,7 +20,7 @@ The design process included:
 * Dissecting their HTML and CSS via browser's 'Inspect' tool to see how things work
 
 For the wireframe, I simply used pen and paper as I found this method easier.
-![alt text](http://url/to/img.png)
+![wireframe](https://github.com/LongNguyen206/LongNguyen206.github.io/blob/master/wireframe.jpg)
 
 As the motto was to keep things simple, the website is split into 6 sections: 
 * Hero section
@@ -105,6 +105,6 @@ The website tried to follow most of [the usability heuristics](https://www.nngro
 
 * The social media icons come form [Fontawesome](https://fontawesome.com/)
 
-* The project's GIF was recorded with [Peek](https://www.omgubuntu.co.uk/2018/03/peek-snap-app-discontinued) for Ubuntu.
+* The project's GIF was recorded with [Peek](https://www.omgubuntu.co.uk/2018/03/peek-snap-app-discontinued) for Ubuntu
 
-* Hero background photo made by me.
+* Hero background photo made by me
