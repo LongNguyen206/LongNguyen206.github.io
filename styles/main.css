@@ -395,7 +395,7 @@ h6 {
 }
 
 p.intro {
-    font-size: 2.0rem;
+    font-size: 2.8rem;
     margin: 4rem 0 1.8rem;
     line-height: 1.4;
     font-weight: 700;
@@ -444,89 +444,6 @@ section {
     section {
         padding: 0 0 60px
     }
-}
-
-footer {
-    padding: 80px 0 50px;
-    background-color: #252a30;
-    color: #fff;
-    text-align: center
-}
-
-footer a,
-footer a:hover {
-    border-bottom: none
-}
-
-footer a.logo {
-    position: relative;
-    background-image: url();
-    background-size: 100%;
-    display: inline-block;
-    width: 34px;
-    height: 32px;
-    text-indent: -99999px;
-    margin: 0 auto;
-    border-radius: 3px;
-    opacity: 0.5
-}
-
-@media screen and (min-width: 350px) {
-    footer {
-        padding: 10px 0 15px;
-    }
-}
-
-@media screen and (min-width: 550px) {
-    footer {
-        padding: 30px 0 15px;
-    }
-}
-
-@media screen and (min-width: 750px) {
-    footer {
-        padding: 30px 0 15px;
-    }
-}
-
-@media screen and (min-width: 750px) {
-    footer a.logo {
-        width: 40px;
-        height: auto
-    }
-}
-
-footer p.made-by-me {
-    margin: 24px 0;
-    color: rgba(255, 255, 255, 0.4);
-    font-size: 1.3rem;
-    line-height: 1.8
-}
-
-footer .made-by-me a {
-    color: rgba(255, 255, 255, 0.4);
-    text-decoration: none
-}
-
-footer .social-links a {
-    display: inline-block;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    margin: 0 4px;
-    height: 36px;
-    width: 36px;
-    font-size: 1.6rem;
-    line-height: 2.3;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 50px;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-footer .social-links a:hover {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.3);
-    border: none
 }
 
 #fullscreen-hero {
@@ -661,7 +578,7 @@ footer .social-links a:hover {
 }
 
 .learn-more {
-    bottom: 15%;
+    bottom: 10%;
     display: inline-block;
     font-size: 1.3rem;
     left: 50%;
@@ -763,13 +680,14 @@ footer .social-links a:hover {
     min-height: 30px;
     width: auto;
     height: 30px;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 5%;
 }
 
 @media screen and (min-width: 750px) {
     #education .info-block img {
         height: 50px;
+        padding-top: 15%;
     }
 }
 
@@ -818,7 +736,7 @@ footer .social-links a:hover {
     position: relative;
     overflow: hidden;
     border-bottom: 1px solid #d6e1e5;
-    padding: 50px 0 0
+    padding: 10px 0 20px;
 }
 
 .project-showcase .project-content {
@@ -878,13 +796,14 @@ footer .social-links a:hover {
 
 @media screen and (min-width: 750px) {
     .project-showcase {
-        padding: 80px 0 20px
+        padding: 40px 0 40px
     }
 }
 
 @media screen and (min-width: 550px) {
     .project-showcase .project-content {
-        text-align: left
+        text-align: left;
+        margin: 0 0;
     }
 }
 
@@ -941,21 +860,9 @@ footer .social-links a:hover {
     max-width: 100%;
     width: 100px;
     height: auto;
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
     transition: transform .2s;
     vertical-align: middle;
-}
-
-@media screen and (min-width: 750px) {
-    #skills img {}
-}
-
-@media screen and (min-width: 550px) {
-    #skills img {}
-}
-
-@media screen and (min-width: 350px) {
-    #skills img {}
 }
 
 #skills p.description {
@@ -1023,7 +930,85 @@ input.button-ghost:hover {
     padding: 1.4rem 4.2rem
 }
 
+footer {
+    padding: 80px 0 50px;
+    background-color: #252a30;
+    color: #fff;
+    text-align: center
+}
 
-/* body.overflow-hidden {
-    overflow: hidden
-} */
+footer a,
+footer a:hover {
+    border-bottom: none
+}
+
+footer a.logo {
+    position: relative;
+    background-image: url();
+    background-size: 100%;
+    display: inline-block;
+    width: 34px;
+    height: 32px;
+    text-indent: -99999px;
+    margin: 0 auto;
+    border-radius: 3px;
+    opacity: 0.5
+}
+
+@media screen and (min-width: 350px) {
+    footer {
+        padding: 10px 0 15px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    footer {
+        padding: 30px 0 15px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    footer {
+        padding: 30px 0 15px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    footer a.logo {
+        width: 40px;
+        height: auto
+    }
+}
+
+footer p.made-by-me {
+    margin: 24px 0;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.3rem;
+    line-height: 1.8
+}
+
+footer .made-by-me a {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none
+}
+
+footer .social-links a {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin: 0 4px;
+    height: 36px;
+    width: 36px;
+    font-size: 1.6rem;
+    line-height: 2.3;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+footer .social-links a:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none
+}
