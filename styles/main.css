@@ -422,14 +422,6 @@ section {
     width: 100%
 }
 
-#halfscreen-hero:before,
-#halfscreen-hero:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%
-}
-
 .home-hero {
     position: relative;
     background-image: none
