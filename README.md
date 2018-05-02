@@ -83,6 +83,15 @@ button:hover {
     border: 2px solid black; 
 }
 ```
+### Footer
+
+Another aesthetic problem I got was the ugly outline around clickables when clicked. I managed to get rid of it by using
+
+```
+a:active {
+    outline:0;
+}
+```
 
 ## Responsiveness
 
