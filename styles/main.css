@@ -228,14 +228,6 @@ p {
     margin-top: 0
 }
 
-a {
-    color: #1EAEDB
-}
-
-a:hover {
-    color: #0FA0CE
-}
-
 textarea {
     min-height: 65px;
     padding-top: 6px;
@@ -474,6 +466,7 @@ section {
     width: 2.5rem;
     padding-top: 2rem;
     transition: transform .2s;
+    outline: 0;
 }
 
 .hero-content img:hover {
@@ -482,6 +475,7 @@ section {
 
 .hero-content a {
     border-bottom: none;
+    outline: 0;
 }
 
 @media screen and (min-width: 750px) {
@@ -554,7 +548,8 @@ section {
 .learn-more a {
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
-    border-bottom: none
+    border-bottom: none;
+    outline: 0;
 }
 
 .learn-more a:hover {
@@ -890,12 +885,12 @@ footer {
 
 footer a,
 footer a:hover {
-    border-bottom: none
+    border: none;
+    outline: 0;
 }
 
 footer a.logo {
     position: relative;
-    background-image: url();
     background-size: 100%;
     display: inline-block;
     width: 34px;
@@ -903,7 +898,11 @@ footer a.logo {
     text-indent: -99999px;
     margin: 0 auto;
     border-radius: 3px;
-    opacity: 0.5
+    opacity: 0.5;
+}
+
+footer a.logo img:hover {
+    border: none;
 }
 
 @media screen and (min-width: 350px) {
