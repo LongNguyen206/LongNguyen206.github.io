@@ -2,11 +2,11 @@
 
 > *This website was created by **Long Nguyen** for the Gentech portfolio project*
 
-### Visit me at `longnguyen206.github.io`
+### Visit me at [longnguyen206.github.io](https://longnguyen206.github.io)
 
 
 ## Project goals
-> Keep it simple, man!
+> Keep it simple!
 
 Learning from my previous assignment, the website was planned to be simple yet complete in time. I did not use **Bootstrap** or any other frameworks and limited the use of jQuery to one single script -  [smooth scrolling](https://css-tricks.com/snippets/jquery/smooth-scrolling/).
 
@@ -95,7 +95,7 @@ a:active {
 
 ## Responsiveness
 
-All the images and texts scale up and down with the browser's width. Much of the responsiveness is achieved automatically via **'viewport' meta**:
+All the images and texts scale up and down with the browser's width. Much of the responsiveness is achieved automatically via **'viewport' meta tag**:
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -109,7 +109,7 @@ Anyone who cares, mostly my Gentech comrades.
 
 ## Usability heuristics
 
-The website tried to follow most of [the usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) and is at least consistent with the following:
+The website tried to follow most of the [usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) and is at least consistent with the following:
 
 * Consistency and standards
 * Error prevention

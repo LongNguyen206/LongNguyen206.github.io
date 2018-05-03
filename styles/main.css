@@ -465,8 +465,8 @@ section {
 .hero-content img {
     width: 2.5rem;
     padding-top: 2rem;
-    transition: transform .2s;
-    outline: 0;
+    transition: transform .5s;
+    /* outline: 0; */
 }
 
 .hero-content img:hover {
@@ -549,7 +549,7 @@ section {
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
     border-bottom: none;
-    outline: 0;
+    /* outline: 0; */
 }
 
 .learn-more a:hover {
