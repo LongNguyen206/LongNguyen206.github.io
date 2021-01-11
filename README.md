@@ -20,9 +20,6 @@ The design process included:
 * Selecting top 3 good-but-simple-looking pages
 * Dissecting their HTML and CSS via browser's 'Inspect' tool to see how things work
 
-To draw the wireframe, I simply used pen and paper as I found this method easier. As you can see, the final design is slightly different from the initial plan
-![wireframe](https://github.com/LongNguyen206/LongNguyen206.github.io/blob/master/wireframe.jpg)
-
 As the motto was to keep things simple, the website is split into 6 simple, page-wide, horizontal sections:
 
 * Hero section
